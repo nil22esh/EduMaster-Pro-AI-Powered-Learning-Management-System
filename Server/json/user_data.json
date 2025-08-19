@@ -1,0 +1,393 @@
+[
+	{
+		"name": "Priya Sharma",
+		"email": "priya.sharma@example.com",
+		"password": "hashed_password_1",
+		"role": "student",
+		"avatar": {
+			"publicId": "avatar_priya",
+			"url": "https://example.com/avatars/priya.jpg"
+		},
+		"bio": "Enthusiastic learner with a passion for web development and design.",
+		"skills": [
+			"JavaScript",
+			"HTML",
+			"CSS"
+		],
+		"courses": [],
+		"badges": [],
+		"points": 125,
+		"lastLoginAt": "2025-08-18T14:30:00Z"
+	},
+	{
+		"name": "Arjun Singh",
+		"email": "arjun.singh@example.com",
+		"password": "hashed_password_2",
+		"role": "instructor",
+		"avatar": {
+			"publicId": "avatar_arjun",
+			"url": "https://example.com/avatars/arjun.jpg"
+		},
+		"bio": "Experienced instructor specializing in data science and machine learning.",
+		"skills": [
+			"Python",
+			"SQL",
+			"Machine Learning"
+		],
+		"courses": [],
+		"badges": [],
+		"points": 500,
+		"lastLoginAt": "2025-08-19T09:00:00Z"
+	},
+	{
+		"name": "Nisha Patel",
+		"email": "nisha.patel@example.com",
+		"password": "hashed_password_3",
+		"role": "student",
+		"avatar": {
+			"publicId": "avatar_nisha",
+			"url": "https://example.com/avatars/nisha.jpg"
+		},
+		"bio": "Aspiring graphic designer. Love creating new and innovative visual concepts.",
+		"skills": [
+			"Adobe Photoshop",
+			"Figma"
+		],
+		"courses": [],
+		"badges": [],
+		"points": 75,
+		"lastLoginAt": "2025-08-17T21:45:00Z"
+	},
+	{
+		"name": "Rahul Kumar",
+		"email": "rahul.kumar@example.com",
+		"password": "hashed_password_4",
+		"role": "student",
+		"avatar": {
+			"publicId": "avatar_rahul",
+			"url": "https://example.com/avatars/rahul.jpg"
+		},
+		"bio": "Computer science student with an interest in cybersecurity.",
+		"skills": [
+			"C++",
+			"Cybersecurity Basics"
+		],
+		"courses": [],
+		"badges": [],
+		"points": 200,
+		"lastLoginAt": "2025-08-19T10:15:00Z"
+	},
+	{
+		"name": "Sneha Gupta",
+		"email": "sneha.gupta@example.com",
+		"password": "hashed_password_5",
+		"role": "student",
+		"avatar": {
+			"publicId": "avatar_sneha",
+			"url": "https://example.com/avatars/sneha.jpg"
+		},
+		"bio": "Learning backend development. Always up for a new challenge.",
+		"skills": [
+			"Node.js",
+			"Express.js",
+			"MongoDB"
+		],
+		"courses": [],
+		"badges": [],
+		"points": 150,
+		"lastLoginAt": "2025-08-19T11:00:00Z"
+	},
+	{
+		"name": "Vishal Verma",
+		"email": "vishal.verma@example.com",
+		"password": "hashed_password_6",
+		"role": "student",
+		"avatar": {
+			"publicId": "avatar_vishal",
+			"url": "https://example.com/avatars/vishal.jpg"
+		},
+		"bio": "Software engineer in the making. Focused on building scalable applications.",
+		"skills": [
+			"Java",
+			"Spring Boot"
+		],
+		"courses": [],
+		"badges": [],
+		"points": 180,
+		"lastLoginAt": "2025-08-18T18:50:00Z"
+	},
+	{
+		"name": "Divya Rao",
+		"email": "divya.rao@example.com",
+		"password": "hashed_password_7",
+		"role": "student",
+		"avatar": {
+			"publicId": "avatar_divya",
+			"url": "https://example.com/avatars/divya.jpg"
+		},
+		"bio": "UX/UI design enthusiast. Love creating intuitive and beautiful user experiences.",
+		"skills": [
+			"Figma",
+			"Sketch",
+			"Prototyping"
+		],
+		"courses": [],
+		"badges": [],
+		"points": 210,
+		"lastLoginAt": "2025-08-19T10:30:00Z"
+	},
+	{
+		"name": "Sanjay Kapoor",
+		"email": "sanjay.kapoor@example.com",
+		"password": "hashed_password_8",
+		"role": "instructor",
+		"avatar": {
+			"publicId": "avatar_sanjay",
+			"url": "https://example.com/avatars/sanjay.jpg"
+		},
+		"bio": "Seasoned instructor in full-stack web development.",
+		"skills": [
+			"React",
+			"Node.js",
+			"MongoDB",
+			"Express.js"
+		],
+		"courses": [],
+		"badges": [],
+		"points": 620,
+		"lastLoginAt": "2025-08-19T11:15:00Z"
+	},
+	{
+		"name": "Anjali Mehta",
+		"email": "anjali.mehta@example.com",
+		"password": "hashed_password_9",
+		"role": "student",
+		"avatar": {
+			"publicId": "avatar_anjali",
+			"url": "https://example.com/avatars/anjali.jpg"
+		},
+		"bio": "Aspiring data analyst with a keen eye for detail.",
+		"skills": [
+			"Excel",
+			"Tableau",
+			"Python"
+		],
+		"courses": [],
+		"badges": [],
+		"points": 95,
+		"lastLoginAt": "2025-08-18T19:05:00Z"
+	},
+	{
+		"name": "Rohit Das",
+		"email": "rohit.das@example.com",
+		"password": "hashed_password_10",
+		"role": "student",
+		"avatar": {
+			"publicId": "avatar_rohit",
+			"url": "https://example.com/avatars/rohit.jpg"
+		},
+		"bio": "Passionate about game development and C#.",
+		"skills": [
+			"C#",
+			"Unity"
+		],
+		"courses": [],
+		"badges": [],
+		"points": 140,
+		"lastLoginAt": "2025-08-19T10:50:00Z"
+	},
+	{
+		"name": "Kavita Reddy",
+		"email": "kavita.reddy@example.com",
+		"password": "hashed_password_11",
+		"role": "student",
+		"avatar": {
+			"publicId": "avatar_kavita",
+			"url": "https://example.com/avatars/kavita.jpg"
+		},
+		"bio": "Loves exploring new programming languages and frameworks.",
+		"skills": [
+			"JavaScript",
+			"React",
+			"Next.js"
+		],
+		"courses": [],
+		"badges": [],
+		"points": 250,
+		"lastLoginAt": "2025-08-19T11:25:00Z"
+	},
+	{
+		"name": "Gaurav Singh",
+		"email": "gaurav.singh@example.com",
+		"password": "hashed_password_12",
+		"role": "admin",
+		"avatar": {
+			"publicId": "avatar_gaurav",
+			"url": "https://example.com/avatars/gaurav.jpg"
+		},
+		"bio": "Platform administrator, ensuring smooth operation and user support.",
+		"skills": [
+			"Management",
+			"Customer Support"
+		],
+		"courses": [],
+		"badges": [],
+		"points": 999,
+		"lastLoginAt": "2025-08-19T10:00:00Z"
+	},
+	{
+		"name": "Mitali Shah",
+		"email": "mitali.shah@example.com",
+		"password": "hashed_password_13",
+		"role": "student",
+		"avatar": {
+			"publicId": "avatar_mitali",
+			"url": "https://example.com/avatars/mitali.jpg"
+		},
+		"bio": "Student of digital marketing and social media strategy.",
+		"skills": [
+			"Social Media Marketing",
+			"SEO"
+		],
+		"courses": [],
+		"badges": [],
+		"points": 80,
+		"lastLoginAt": "2025-08-18T15:10:00Z"
+	},
+	{
+		"name": "Rajesh Nair",
+		"email": "rajesh.nair@example.com",
+		"password": "hashed_password_14",
+		"role": "instructor",
+		"avatar": {
+			"publicId": "avatar_rajesh",
+			"url": "https://example.com/avatars/rajesh.jpg"
+		},
+		"bio": "Expert in cloud computing and DevOps practices.",
+		"skills": [
+			"AWS",
+			"Docker",
+			"Kubernetes"
+		],
+		"courses": [],
+		"badges": [],
+		"points": 750,
+		"lastLoginAt": "2025-08-19T08:45:00Z"
+	},
+	{
+		"name": "Aditi Roy",
+		"email": "aditi.roy@example.com",
+		"password": "hashed_password_15",
+		"role": "student",
+		"avatar": {
+			"publicId": "avatar_aditi",
+			"url": "https://example.com/avatars/aditi.jpg"
+		},
+		"bio": "Curious about the world of AI and machine learning.",
+		"skills": [
+			"Python",
+			"TensorFlow"
+		],
+		"courses": [],
+		"badges": [],
+		"points": 190,
+		"lastLoginAt": "2025-08-19T09:20:00Z"
+	},
+	{
+		"name": "Vikram Seth",
+		"email": "vikram.seth@example.com",
+		"password": "hashed_password_16",
+		"role": "student",
+		"avatar": {
+			"publicId": "avatar_vikram",
+			"url": "https://example.com/avatars/vikram.jpg"
+		},
+		"bio": "Exploring the world of blockchain technology.",
+		"skills": [
+			"Blockchain",
+			"Solidity"
+		],
+		"courses": [],
+		"badges": [],
+		"points": 110,
+		"lastLoginAt": "2025-08-18T22:00:00Z"
+	},
+	{
+		"name": "Pooja Trivedi",
+		"email": "pooja.trivedi@example.com",
+		"password": "hashed_password_17",
+		"role": "student",
+		"avatar": {
+			"publicId": "avatar_pooja",
+			"url": "https://example.com/avatars/pooja.jpg"
+		},
+		"bio": "Loves front-end development and building interactive user interfaces.",
+		"skills": [
+			"HTML",
+			"CSS",
+			"React"
+		],
+		"courses": [],
+		"badges": [],
+		"points": 165,
+		"lastLoginAt": "2025-08-19T08:00:00Z"
+	},
+	{
+		"name": "Amit Joshi",
+		"email": "amit.joshi@example.com",
+		"password": "hashed_password_18",
+		"role": "instructor",
+		"avatar": {
+			"publicId": "avatar_amit",
+			"url": "https://example.com/avatars/amit.jpg"
+		},
+		"bio": "Teaches mobile application development for Android and iOS.",
+		"skills": [
+			"Kotlin",
+			"Swift",
+			"Flutter"
+		],
+		"courses": [],
+		"badges": [],
+		"points": 680,
+		"lastLoginAt": "2025-08-19T10:40:00Z"
+	},
+	{
+		"name": "Shreya Mukherjee",
+		"email": "shreya.mukherjee@example.com",
+		"password": "hashed_password_19",
+		"role": "student",
+		"avatar": {
+			"publicId": "avatar_shreya",
+			"url": "https://example.com/avatars/shreya.jpg"
+		},
+		"bio": "New to coding, but eager to learn everything about it.",
+		"skills": [
+			"C"
+		],
+		"courses": [],
+		"badges": [],
+		"points": 50,
+		"lastLoginAt": "2025-08-18T20:15:00Z"
+	},
+	{
+		"name": "Karan Malhotra",
+		"email": "karan.malhotra@example.com",
+		"password": "hashed_password_20",
+		"role": "student",
+		"avatar": {
+			"publicId": "avatar_karan",
+			"url": "https://example.com/avatars/karan.jpg"
+		},
+		"bio": "Interested in DevOps and automating software deployment.",
+		"skills": [
+			"Jenkins",
+			"Git",
+			"Ansible"
+		],
+		"courses": [],
+		"badges": [],
+		"points": 220,
+		"lastLoginAt": "2025-08-19T11:55:00Z"
+	}
+]
