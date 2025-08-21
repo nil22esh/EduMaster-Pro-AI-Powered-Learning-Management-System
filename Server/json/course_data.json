@@ -1,0 +1,647 @@
+[
+	{
+		"title": "Full Stack Web Development with MERN Stack",
+		"slug": "full-stack-mern-development",
+		"description": "Master the MERN stack (MongoDB, Express.js, React, Node.js) to build modern, scalable, and dynamic web applications from scratch.",
+		"thumbnailUrl": "https://placehold.co/600x400/94A3B8/FFFFFF?text=MERN+Stack",
+		"instructor": "66a33765e1816f1880e60934",
+		"price": 14999,
+		"currency": "INR",
+		"category": "Web Development",
+		"tags": [
+			"mern",
+			"javascript",
+			"react",
+			"node.js",
+			"express",
+			"mongodb",
+			"full stack"
+		],
+		"level": "intermediate",
+		"language": "en",
+		"lessonsCount": 120,
+		"ratings": {
+			"avg": 4.8,
+			"count": 250
+		},
+		"isPublished": true,
+		"version": 1,
+		"meta": {
+			"enrolledCount": 1520,
+			"totalDurationSec": 54000
+		}
+	},
+	{
+		"title": "Python for Data Science and Machine Learning",
+		"slug": "python-data-science-ml",
+		"description": "A comprehensive guide to using Python for data analysis, data visualization, and building machine learning models using popular libraries like Pandas, NumPy, and Scikit-learn.",
+		"thumbnailUrl": "https://placehold.co/600x400/3498DB/FFFFFF?text=Data+Science",
+		"instructor": "66a33765e1816f1880e60935",
+		"price": 9999,
+		"currency": "INR",
+		"category": "Data Science",
+		"tags": [
+			"python",
+			"data science",
+			"machine learning",
+			"pandas",
+			"numpy",
+			"scikit-learn",
+			"ai"
+		],
+		"level": "intermediate",
+		"language": "en",
+		"lessonsCount": 95,
+		"ratings": {
+			"avg": 4.7,
+			"count": 412
+		},
+		"isPublished": true,
+		"version": 1,
+		"meta": {
+			"enrolledCount": 2300,
+			"totalDurationSec": 45000
+		}
+	},
+	{
+		"title": "AWS Certified Solutions Architect - Associate",
+		"slug": "aws-solutions-architect",
+		"description": "Prepare for the AWS Certified Solutions Architect - Associate exam. Learn to design and deploy scalable, highly available, and fault-tolerant systems on AWS.",
+		"thumbnailUrl": "https://placehold.co/600x400/FF9900/FFFFFF?text=AWS+Architect",
+		"instructor": "66a33765e1816f1880e60936",
+		"price": 12499,
+		"currency": "INR",
+		"category": "Cloud Computing",
+		"tags": [
+			"aws",
+			"cloud",
+			"solutions architect",
+			"certification",
+			"amazon",
+			"devops"
+		],
+		"level": "advanced",
+		"language": "en",
+		"lessonsCount": 80,
+		"ratings": {
+			"avg": 4.9,
+			"count": 678
+		},
+		"isPublished": true,
+		"version": 1,
+		"meta": {
+			"enrolledCount": 1850,
+			"totalDurationSec": 60000
+		}
+	},
+	{
+		"title": "Ethical Hacking for Beginners",
+		"slug": "ethical-hacking-beginners",
+		"description": "An introduction to the fundamentals of ethical hacking and cybersecurity. Learn about network penetration testing, web app security, and how to secure systems.",
+		"thumbnailUrl": "https://placehold.co/600x400/16A085/FFFFFF?text=Ethical+Hacking",
+		"instructor": "66a33765e1816f1880e60937",
+		"price": 7999,
+		"currency": "INR",
+		"category": "Cybersecurity",
+		"tags": [
+			"hacking",
+			"cybersecurity",
+			"security",
+			"network security",
+			"penetration testing"
+		],
+		"level": "beginner",
+		"language": "en",
+		"lessonsCount": 65,
+		"ratings": {
+			"avg": 4.6,
+			"count": 321
+		},
+		"isPublished": true,
+		"version": 1,
+		"meta": {
+			"enrolledCount": 2100,
+			"totalDurationSec": 36000
+		}
+	},
+	{
+		"title": "DevOps with Docker and Kubernetes",
+		"slug": "devops-docker-kubernetes",
+		"description": "Learn to automate your software delivery lifecycle using CI/CD pipelines, Docker for containerization, and Kubernetes for container orchestration.",
+		"thumbnailUrl": "https://placehold.co/600x400/333333/FFFFFF?text=DevOps",
+		"instructor": "66a33765e1816f1880e60938",
+		"price": 11999,
+		"currency": "INR",
+		"category": "DevOps",
+		"tags": [
+			"devops",
+			"docker",
+			"kubernetes",
+			"ci/cd",
+			"automation",
+			"jenkins"
+		],
+		"level": "advanced",
+		"language": "en",
+		"lessonsCount": 110,
+		"ratings": {
+			"avg": 4.8,
+			"count": 543
+		},
+		"isPublished": true,
+		"version": 1,
+		"meta": {
+			"enrolledCount": 1780,
+			"totalDurationSec": 58000
+		}
+	},
+	{
+		"title": "The Complete Flutter Development Bootcamp",
+		"slug": "flutter-development-bootcamp",
+		"description": "Build beautiful, natively compiled applications for mobile, web, and desktop from a single codebase with Flutter and Dart.",
+		"thumbnailUrl": "https://placehold.co/600x400/42A5F5/FFFFFF?text=Flutter+Dev",
+		"instructor": "66a33765e1816f1880e60939",
+		"price": 8499,
+		"currency": "INR",
+		"category": "Mobile Development",
+		"tags": [
+			"flutter",
+			"dart",
+			"mobile",
+			"ios",
+			"android",
+			"ui/ux"
+		],
+		"level": "intermediate",
+		"language": "en",
+		"lessonsCount": 90,
+		"ratings": {
+			"avg": 4.7,
+			"count": 390
+		},
+		"isPublished": true,
+		"version": 1,
+		"meta": {
+			"enrolledCount": 1450,
+			"totalDurationSec": 48000
+		}
+	},
+	{
+		"title": "Introduction to AI and Prompt Engineering",
+		"slug": "intro-ai-prompt-engineering",
+		"description": "Learn the core concepts of Artificial Intelligence and master the art of writing effective prompts for generative AI models.",
+		"thumbnailUrl": "https://placehold.co/600x400/9B59B6/FFFFFF?text=AI+Prompts",
+		"instructor": "66a33765e1816f1880e6093a",
+		"price": 4999,
+		"currency": "INR",
+		"category": "Artificial Intelligence",
+		"tags": [
+			"ai",
+			"prompt engineering",
+			"generative ai",
+			"large language models",
+			"llm"
+		],
+		"level": "beginner",
+		"language": "en",
+		"lessonsCount": 45,
+		"ratings": {
+			"avg": 4.5,
+			"count": 150
+		},
+		"isPublished": true,
+		"version": 1,
+		"meta": {
+			"enrolledCount": 980,
+			"totalDurationSec": 22500
+		}
+	},
+	{
+		"title": "Advanced JavaScript Concepts and ES6+",
+		"slug": "advanced-javascript-es6",
+		"description": "Dive deep into modern JavaScript, covering advanced topics like closures, prototypes, asynchronous programming, and all the new features in ES6 and beyond.",
+		"thumbnailUrl": "https://placehold.co/600x400/F1C40F/000000?text=JS+Advanced",
+		"instructor": "66a33765e1816f1880e6093b",
+		"price": 6999,
+		"currency": "INR",
+		"category": "Programming",
+		"tags": [
+			"javascript",
+			"es6",
+			"asynchronous",
+			"functional programming",
+			"frontend"
+		],
+		"level": "advanced",
+		"language": "en",
+		"lessonsCount": 75,
+		"ratings": {
+			"avg": 4.6,
+			"count": 180
+		},
+		"isPublished": true,
+		"version": 1,
+		"meta": {
+			"enrolledCount": 890,
+			"totalDurationSec": 32400
+		}
+	},
+	{
+		"title": "Complete C++ Programming Course",
+		"slug": "complete-cplusplus-programming",
+		"description": "A step-by-step guide to learning C++ from scratch. Master data structures, algorithms, and object-oriented programming concepts to build robust applications.",
+		"thumbnailUrl": "https://placehold.co/600x400/00599C/FFFFFF?text=C%2B%2B",
+		"instructor": "66a33765e1816f1880e6093c",
+		"price": 8999,
+		"currency": "INR",
+		"category": "Programming",
+		"tags": [
+			"c++",
+			"cpp",
+			"programming",
+			"algorithms",
+			"data structures",
+			"oop"
+		],
+		"level": "beginner",
+		"language": "en",
+		"lessonsCount": 150,
+		"ratings": {
+			"avg": 4.5,
+			"count": 275
+		},
+		"isPublished": true,
+		"version": 1,
+		"meta": {
+			"enrolledCount": 1600,
+			"totalDurationSec": 64800
+		}
+	},
+	{
+		"title": "Cybersecurity for IT Professionals",
+		"slug": "cybersecurity-it-pros",
+		"description": "A professional-level course on securing enterprise systems, including identity and access management, incident response, and security architecture.",
+		"thumbnailUrl": "https://placehold.co/600x400/2C3E50/FFFFFF?text=Cybersecurity",
+		"instructor": "66a33765e1816f1880e6093d",
+		"price": 17999,
+		"currency": "INR",
+		"category": "Cybersecurity",
+		"tags": [
+			"cybersecurity",
+			"security",
+			"enterprise security",
+			"incident response",
+			"cissp"
+		],
+		"level": "advanced",
+		"language": "en",
+		"lessonsCount": 105,
+		"ratings": {
+			"avg": 4.8,
+			"count": 195
+		},
+		"isPublished": true,
+		"version": 1,
+		"meta": {
+			"enrolledCount": 950,
+			"totalDurationSec": 50400
+		}
+	},
+	{
+		"title": "Data Engineering with Spark and Hadoop",
+		"slug": "data-engineering-spark-hadoop",
+		"description": "Become a data engineer. Learn to build and manage large-scale data pipelines using Apache Spark, Hadoop, and other big data technologies.",
+		"thumbnailUrl": "https://placehold.co/600x400/F39C12/FFFFFF?text=Data+Engineering",
+		"instructor": "66a33765e1816f1880e6093e",
+		"price": 15999,
+		"currency": "INR",
+		"category": "Data Science",
+		"tags": [
+			"data engineering",
+			"big data",
+			"spark",
+			"hadoop",
+			"etl",
+			"data pipelines"
+		],
+		"level": "advanced",
+		"language": "en",
+		"lessonsCount": 85,
+		"ratings": {
+			"avg": 4.7,
+			"count": 210
+		},
+		"isPublished": true,
+		"version": 1,
+		"meta": {
+			"enrolledCount": 1100,
+			"totalDurationSec": 55000
+		}
+	},
+	{
+		"title": "UX/UI Design for Web and Mobile Apps",
+		"slug": "ux-ui-design",
+		"description": "Learn to create user-centric digital products. This course covers the entire design process from user research and wireframing to prototyping and usability testing.",
+		"thumbnailUrl": "https://placehold.co/600x400/9B59B6/FFFFFF?text=UX/UI+Design",
+		"instructor": "66a33765e1816f1880e6093f",
+		"price": 5499,
+		"currency": "INR",
+		"category": "Design",
+		"tags": [
+			"ui/ux",
+			"user experience",
+			"user interface",
+			"figma",
+			"sketch",
+			"design"
+		],
+		"level": "intermediate",
+		"language": "en",
+		"lessonsCount": 60,
+		"ratings": {
+			"avg": 4.5,
+			"count": 175
+		},
+		"isPublished": true,
+		"version": 1,
+		"meta": {
+			"enrolledCount": 1250,
+			"totalDurationSec": 30000
+		}
+	},
+	{
+		"title": "Introduction to Java Programming",
+		"slug": "intro-java-programming",
+		"description": "Get started with one of the most popular programming languages. This course covers core Java concepts, object-oriented programming, and building your first applications.",
+		"thumbnailUrl": "https://placehold.co/600x400/F15151/FFFFFF?text=Java+Intro",
+		"instructor": "66a33765e1816f1880e60940",
+		"price": 3999,
+		"currency": "INR",
+		"category": "Programming",
+		"tags": [
+			"java",
+			"programming",
+			"oop",
+			"backend",
+			"developer"
+		],
+		"level": "beginner",
+		"language": "en",
+		"lessonsCount": 80,
+		"ratings": {
+			"avg": 4.4,
+			"count": 310
+		},
+		"isPublished": true,
+		"version": 1,
+		"meta": {
+			"enrolledCount": 2500,
+			"totalDurationSec": 39600
+		}
+	},
+	{
+		"title": "Salesforce Developer Masterclass",
+		"slug": "salesforce-developer-masterclass",
+		"description": "Master the Salesforce platform by learning Apex, Visualforce, and Lightning Web Components to build custom business applications.",
+		"thumbnailUrl": "https://placehold.co/600x400/1798C1/FFFFFF?text=Salesforce",
+		"instructor": "66a33765e1816f1880e60941",
+		"price": 10999,
+		"currency": "INR",
+		"category": "Enterprise Software",
+		"tags": [
+			"salesforce",
+			"apex",
+			"lightning",
+			"crm",
+			"platform",
+			"cloud"
+		],
+		"level": "advanced",
+		"language": "en",
+		"lessonsCount": 90,
+		"ratings": {
+			"avg": 4.6,
+			"count": 140
+		},
+		"isPublished": true,
+		"version": 1,
+		"meta": {
+			"enrolledCount": 750,
+			"totalDurationSec": 52000
+		}
+	},
+	{
+		"title": "Getting Started with SQL and Relational Databases",
+		"slug": "sql-relational-databases",
+		"description": "Learn the essentials of SQL to query, manipulate, and manage data in relational databases like MySQL and PostgreSQL.",
+		"thumbnailUrl": "https://placehold.co/600x400/E74C3C/FFFFFF?text=SQL",
+		"instructor": "66a33765e1816f1880e60942",
+		"price": 4999,
+		"currency": "INR",
+		"category": "Databases",
+		"tags": [
+			"sql",
+			"database",
+			"mysql",
+			"postgresql",
+			"data analysis"
+		],
+		"level": "beginner",
+		"language": "en",
+		"lessonsCount": 50,
+		"ratings": {
+			"avg": 4.7,
+			"count": 450
+		},
+		"isPublished": true,
+		"version": 1,
+		"meta": {
+			"enrolledCount": 3100,
+			"totalDurationSec": 25200
+		}
+	},
+	{
+		"title": "The Complete React Native Course",
+		"slug": "react-native-course",
+		"description": "Build cross-platform mobile apps for iOS and Android with a single JavaScript codebase using the React Native framework.",
+		"thumbnailUrl": "https://placehold.co/600x400/61DAFB/000000?text=React+Native",
+		"instructor": "66a33765e1816f1880e60943",
+		"price": 9499,
+		"currency": "INR",
+		"category": "Mobile Development",
+		"tags": [
+			"react native",
+			"javascript",
+			"mobile",
+			"ios",
+			"android",
+			"cross-platform"
+		],
+		"level": "intermediate",
+		"language": "en",
+		"lessonsCount": 100,
+		"ratings": {
+			"avg": 4.6,
+			"count": 285
+		},
+		"isPublished": true,
+		"version": 1,
+		"meta": {
+			"enrolledCount": 1350,
+			"totalDurationSec": 50400
+		}
+	},
+	{
+		"title": "Backend Development with Node.js and Express",
+		"slug": "node-express-backend",
+		"description": "Learn how to create robust and scalable backend APIs using Node.js and Express.js, including database integration and authentication.",
+		"thumbnailUrl": "https://placehold.co/600x400/5FA944/FFFFFF?text=Node.js+Backend",
+		"instructor": "66a33765e1816f1880e60944",
+		"price": 7999,
+		"currency": "INR",
+		"category": "Web Development",
+		"tags": [
+			"node.js",
+			"express",
+			"backend",
+			"javascript",
+			"api",
+			"rest"
+		],
+		"level": "intermediate",
+		"language": "en",
+		"lessonsCount": 70,
+		"ratings": {
+			"avg": 4.5,
+			"count": 240
+		},
+		"isPublished": true,
+		"version": 1,
+		"meta": {
+			"enrolledCount": 1120,
+			"totalDurationSec": 38000
+		}
+	},
+	{
+		"title": "Machine Learning with R",
+		"slug": "machine-learning-with-r",
+		"description": "A practical course on building machine learning models and analyzing data using the R programming language and its powerful ecosystem of libraries.",
+		"thumbnailUrl": "https://placehold.co/600x400/2980B9/FFFFFF?text=R+ML",
+		"instructor": "66a33765e1816f1880e60945",
+		"price": 8999,
+		"currency": "INR",
+		"category": "Data Science",
+		"tags": [
+			"machine learning",
+			"r",
+			"statistics",
+			"data analysis",
+			"predictive modeling"
+		],
+		"level": "intermediate",
+		"language": "en",
+		"lessonsCount": 65,
+		"ratings": {
+			"avg": 4.3,
+			"count": 125
+		},
+		"isPublished": true,
+		"version": 1,
+		"meta": {
+			"enrolledCount": 680,
+			"totalDurationSec": 35000
+		}
+	},
+	{
+		"title": "Frontend Fundamentals with HTML, CSS, and JavaScript",
+		"slug": "frontend-fundamentals",
+		"description": "Kickstart your career as a frontend developer. Learn the foundational trio of the web: HTML for structure, CSS for style, and JavaScript for interactivity.",
+		"thumbnailUrl": "https://placehold.co/600x400/E67E22/FFFFFF?text=Frontend+Basics",
+		"instructor": "66a33765e1816f1880e60946",
+		"price": 2999,
+		"currency": "INR",
+		"category": "Web Development",
+		"tags": [
+			"html",
+			"css",
+			"javascript",
+			"frontend",
+			"web design",
+			"beginner"
+		],
+		"level": "beginner",
+		"language": "en",
+		"lessonsCount": 70,
+		"ratings": {
+			"avg": 4.8,
+			"count": 520
+		},
+		"isPublished": true,
+		"version": 1,
+		"meta": {
+			"enrolledCount": 4500,
+			"totalDurationSec": 30000
+		}
+	},
+	{
+		"title": "Microsoft Azure Administrator Certification (AZ-104)",
+		"slug": "azure-administrator-az104",
+		"description": "Get ready for the AZ-104 exam. This course covers all the skills needed to administer Microsoft Azure environments, from networking to storage.",
+		"thumbnailUrl": "https://placehold.co/600x400/0078D4/FFFFFF?text=Azure+Admin",
+		"instructor": "66a33765e1816f1880e60947",
+		"price": 11999,
+		"currency": "INR",
+		"category": "Cloud Computing",
+		"tags": [
+			"azure",
+			"microsoft",
+			"cloud",
+			"administrator",
+			"certification"
+		],
+		"level": "advanced",
+		"language": "en",
+		"lessonsCount": 85,
+		"ratings": {
+			"avg": 4.7,
+			"count": 345
+		},
+		"isPublished": true,
+		"version": 1,
+		"meta": {
+			"enrolledCount": 1050,
+			"totalDurationSec": 56000
+		}
+	},
+	{
+		"title": "Software Testing and Quality Assurance",
+		"slug": "software-testing-qa",
+		"description": "Learn the principles and practices of software testing, including manual and automated testing, test case design, and quality assurance methodologies.",
+		"thumbnailUrl": "https://placehold.co/600x400/E5E5E5/000000?text=Software+Testing",
+		"instructor": "66a33765e1816f1880e60948",
+		"price": 6499,
+		"currency": "INR",
+		"category": "Quality Assurance",
+		"tags": [
+			"qa",
+			"testing",
+			"software testing",
+			"automation",
+			"selenium",
+			"manual testing"
+		],
+		"level": "beginner",
+		"language": "en",
+		"lessonsCount": 60,
+		"ratings": {
+			"avg": 4.5,
+			"count": 160
+		},
+		"isPublished": true,
+		"version": 1,
+		"meta": {
+			"enrolledCount": 920,
+			"totalDurationSec": 32400
+		}
+	}
+]
