@@ -61,6 +61,12 @@ const CourseSchema = new Schema(
       default: "en",
       index: true,
     },
+    lessons: [
+      {
+        type: Types.ObjectId,
+        ref: "Lesson",
+      },
+    ],
     lessonsCount: {
       type: Number,
       default: 0,

@@ -4,6 +4,7 @@ import cookieParser from "cookie-parser";
 import dbConnect from "./db/dbConnect.js";
 import userRouter from "./routes/user.routes.js";
 import courseRouter from "./routes/course.routes.js";
+import lessonRouter from "./routes/lesson.routes.js";
 
 // configuring environment variables
 dotenv.config();
@@ -22,6 +23,7 @@ app.use(cookieParser());
 // creating routes
 app.use("/api/v1/users", userRouter);
 app.use("/api/v1/courses", courseRouter);
+app.use("/api/v1/lessons", lessonRouter);
 
 // creating application server
 app.listen(port, () => {

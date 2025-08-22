@@ -86,3 +86,36 @@ It includes routes for instructors, admins, and general authenticated users.
 - `rateCourseById` – Allows users to rate a course.
 
 ---
+
+# 📘 Lesson Module – API Documentation
+
+This module handles **lesson creation, retrieval, updating, and deletion** within a course.  
+It is restricted to **instructors** with authentication.
+
+## 📂 Routes Overview
+
+| Method | Endpoint                                      | Middleware                                                  | Description                         |
+| ------ | --------------------------------------------- | ----------------------------------------------------------- | ----------------------------------- |
+| POST   | `/course/:courseId/createlesson`              | `isAuthenticated`, `createLessonValiadtion`, `isInstructor` | Create a new lesson under a course  |
+| GET    | `/course/:courseId/lessons`                   | `isAuthenticated`, `isInstructor`                           | Get all lessons for a course        |
+| GET    | `/course/:courseId/lessons/:lessonId`         | `isAuthenticated`, `isInstructor`                           | Get a lesson by ID                  |
+| PUT    | `/course/:courseId/lessons/:lessonId/details` | `isAuthenticated`, `isInstructor`                           | Update lesson details               |
+| DELETE | `/course/:courseId/lessons/:lessonId`         | `isAuthenticated`, `isInstructor`                           | Delete a lesson                     |
+| GET    | `/course/:courseId/lessons/:lessonId`         | `isAuthenticated`, `isInstructor`                           | Get lesson detail (duplicate route) |
+
+## 🛡️ Middlewares
+
+- **`isAuthenticated`** – Ensures the user is logged in (valid JWT).
+- **`isInstructor`** – Restricts access to instructors only.
+- **`createLessonValiadtion`** – Validates lesson creation input.
+
+## 📌 Controllers
+
+- `createNewLesson` – Creates a new lesson in a course.
+- `getLessonsByCourseId` – Retrieves all lessons of a course.
+- `getLessonById` – Retrieves a lesson by ID.
+- `updateLessonById` – Updates lesson details.
+- `deleteLessonById` – Deletes a lesson.
+- `getLessonDetail` – Fetches detailed information about a lesson.
+
+---

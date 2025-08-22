@@ -29,6 +29,7 @@ export const createCourse = async (req, res) => {
   const {
     title,
     slug,
+    lessons,
     description,
     category,
     thumbnailUrl,
@@ -50,6 +51,7 @@ export const createCourse = async (req, res) => {
       slug,
       description,
       category,
+      lessons,
       thumbnailUrl,
       level,
       currency,
