@@ -6,6 +6,8 @@ import userRouter from "./routes/user.routes.js";
 import courseRouter from "./routes/course.routes.js";
 import lessonRouter from "./routes/lesson.routes.js";
 import quizRouter from "./routes/quiz.routes.js";
+import quizAttemptRouter from "./routes/quizAttempt.routes.js";
+import enrollmentRouter from "./routes/enrollment.routes.js";
 
 // configuring environment variables
 dotenv.config();
@@ -26,6 +28,8 @@ app.use("/api/v1/users", userRouter);
 app.use("/api/v1/courses", courseRouter);
 app.use("/api/v1/lessons", lessonRouter);
 app.use("/api/v1/quizzes", quizRouter);
+app.use("/api/v1/attempts", quizAttemptRouter);
+app.use("/api/v1/enrollments", enrollmentRouter);
 
 // creating application server
 app.listen(port, () => {

@@ -87,7 +87,7 @@ It includes routes for instructors, admins, and general authenticated users.
 
 ---
 
-# 📘 Lesson Module – API Documentation
+# 📘 Lesson Module
 
 This module handles **lesson creation, retrieval, updating, and deletion** within a course.  
 It is restricted to **instructors** with authentication.
@@ -103,12 +103,6 @@ It is restricted to **instructors** with authentication.
 | DELETE | `/course/:courseId/lessons/:lessonId`         | `isAuthenticated`, `isInstructor`                           | Delete a lesson                     |
 | GET    | `/course/:courseId/lessons/:lessonId`         | `isAuthenticated`, `isInstructor`                           | Get lesson detail (duplicate route) |
 
-## 🛡️ Middlewares
-
-- **`isAuthenticated`** – Ensures the user is logged in (valid JWT).
-- **`isInstructor`** – Restricts access to instructors only.
-- **`createLessonValiadtion`** – Validates lesson creation input.
-
 ## 📌 Controllers
 
 - `createNewLesson` – Creates a new lesson in a course.
@@ -120,7 +114,7 @@ It is restricted to **instructors** with authentication.
 
 ---
 
-# 📝 Quiz Module – API Documentation
+# 📝 Quiz Module
 
 This module handles **quiz creation, management, activation, and AI-generated quizzes**.  
 It is restricted to **instructors** with authentication.
@@ -136,12 +130,6 @@ It is restricted to **instructors** with authentication.
 | PATCH  | `/quiz/:quizId/toggle`                            | `isAuthenticated`, `isInstructor`                         | Toggle quiz active/inactive                       |
 | POST   | `/generateaiquiz/:lessonId`                       | `isAuthenticated`, `isInstructor`                         | Generate quiz automatically using AI for a lesson |
 
-## 🛡️ Middlewares
-
-- **`isAuthenticated`** – Ensures the user is logged in (valid JWT).
-- **`isInstructor`** – Restricts access to instructors only.
-- **`createQuizValidation`** – Validates quiz creation input.
-
 ## 📌 Controllers
 
 - `createQuiz` – Creates a quiz for a lesson.
@@ -150,5 +138,56 @@ It is restricted to **instructors** with authentication.
 - `getQuizzesByLessonId` – Fetches all quizzes for a lesson.
 - `generateAIQuiz` – Uses AI to auto-generate a quiz for a lesson.
 - `toggleQuizActive` – Activates/deactivates a quiz.
+
+---
+
+# 📊 Quiz Attempt Module – API Documentation
+
+This module manages **quiz attempts by students**, including starting an attempt, submitting answers, and retrieving attempt history or details.
+
+---
+
+## 📂 Routes Overview
+
+### 🏁 Attempt Lifecycle
+
+| Method | Endpoint                            | Middleware        | Description                                                |
+| ------ | ----------------------------------- | ----------------- | ---------------------------------------------------------- |
+| POST   | `/quiz/:quizId/attempt`             | `isAuthenticated` | Start a new attempt for a quiz                             |
+| POST   | `/quiz/:quizId/submit`              | `isAuthenticated` | Submit a quiz attempt with answers                         |
+| GET    | `/quiz/:quizId/attempts/me`         | `isAuthenticated` | Get all attempts for the logged-in user on a specific quiz |
+| GET    | `/quiz/:quizId/attempts/:attemptId` | `isAuthenticated` | Get details of a specific quiz attempt                     |
+
+## 📌 Controllers
+
+- `startAttempt` – Initializes a new quiz attempt for a user.
+- `submitAttempt` – Submits answers and calculates results.
+- `getAttemptsByUser` – Retrieves all attempts made by the logged-in user for a quiz.
+- `getAttemptById` – Fetches a specific attempt’s details.
+
+---
+
+# 📈 Enrollment Module
+
+This module manages **course enrollments**, including enrolling in courses, tracking progress, and marking courses as complete.  
+It also provides admin functionality to view course-level enrollment data.
+
+## 📂 Routes Overview
+
+| Method | Endpoint                                        | Middleware                   | Description                                            |
+| ------ | ----------------------------------------------- | ---------------------------- | ------------------------------------------------------ |
+| POST   | `/courses/:courseId/enroll`                     | `isAuthenticated`            | Enroll the authenticated user into a course            |
+| GET    | `/courses/me/enrollments`                       | `isAuthenticated`            | Get all courses the user is enrolled in                |
+| GET    | `/courses/:courseId/enrollment`                 | `isAuthenticated`, `isAdmin` | Get all enrollments for a specific course (Admin only) |
+| PUT    | `/courses/:courseId/lessons/:lessonId/progress` | `isAuthenticated`            | Update lesson progress for a course                    |
+| PUT    | `/courses/:courseId/complete`                   | `isAuthenticated`            | Mark the course as completed                           |
+
+## 📌 Controllers
+
+- `enrollCourse` – Handles enrolling a user into a course.
+- `getMyEnrolledCourses` – Fetches courses that the logged-in user has enrolled in.
+- `getEnrollmentByCourse` – Fetches all enrollments for a specific course (Admin only).
+- `updateCourseProgress` – Updates user’s lesson-level progress in a course.
+- `completeCourse` – Marks a course as completed for the user.
 
 ---
