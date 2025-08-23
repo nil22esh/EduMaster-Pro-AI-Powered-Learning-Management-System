@@ -119,3 +119,36 @@ It is restricted to **instructors** with authentication.
 - `getLessonDetail` – Fetches detailed information about a lesson.
 
 ---
+
+# 📝 Quiz Module – API Documentation
+
+This module handles **quiz creation, management, activation, and AI-generated quizzes**.  
+It is restricted to **instructors** with authentication.
+
+## 📂 Routes Overview
+
+| Method | Endpoint                                          | Middleware                                                | Description                                       |
+| ------ | ------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------- |
+| POST   | `/course/:courseId/lesson/:lessonId/createquiz`   | `isAuthenticated`, `createQuizValidation`, `isInstructor` | Create a new quiz for a lesson                    |
+| PUT    | `/course/:courseId/lesson/:lessonId/quiz/:quizId` | `isAuthenticated`, `isInstructor`                         | Update quiz details                               |
+| DELETE | `/course/:courseId/lesson/:lessonId/quiz/:quizId` | `isAuthenticated`, `isInstructor`                         | Delete a quiz                                     |
+| GET    | `/course/:courseId/lesson/:lessonId/quizzes`      | `isAuthenticated`, `isInstructor`                         | Get all quizzes for a lesson                      |
+| PATCH  | `/quiz/:quizId/toggle`                            | `isAuthenticated`, `isInstructor`                         | Toggle quiz active/inactive                       |
+| POST   | `/generateaiquiz/:lessonId`                       | `isAuthenticated`, `isInstructor`                         | Generate quiz automatically using AI for a lesson |
+
+## 🛡️ Middlewares
+
+- **`isAuthenticated`** – Ensures the user is logged in (valid JWT).
+- **`isInstructor`** – Restricts access to instructors only.
+- **`createQuizValidation`** – Validates quiz creation input.
+
+## 📌 Controllers
+
+- `createQuiz` – Creates a quiz for a lesson.
+- `updateQuiz` – Updates quiz details.
+- `deleteQuiz` – Deletes a quiz.
+- `getQuizzesByLessonId` – Fetches all quizzes for a lesson.
+- `generateAIQuiz` – Uses AI to auto-generate a quiz for a lesson.
+- `toggleQuizActive` – Activates/deactivates a quiz.
+
+---

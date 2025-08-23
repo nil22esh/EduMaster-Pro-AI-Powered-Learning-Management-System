@@ -645,3 +645,1106 @@
 		}
 	}
 ]
+{
+	"course": {
+		"_id": {
+			"$oid": "66a33765e1816f1880e60948"
+		},
+		"title": "Microsoft Azure Administrator Certification (AZ-104)",
+		"slug": "azure-administrator-az104",
+		"description": "Get ready for the AZ-104 exam. This course covers all the skills needed to administer Microsoft Azure environments, from networking to storage.",
+		"thumbnailUrl": "https://placehold.co/600x400/0078D4/FFFFFF?text=Azure+Admin",
+		"instructor": "66a33765e1816f1880e60947",
+		"price": 11999,
+		"currency": "INR",
+		"category": "Cloud Computing",
+		"tags": [
+			"azure",
+			"microsoft",
+			"cloud",
+			"administrator",
+			"certification"
+		],
+		"level": "advanced",
+		"language": "en",
+		"lessonsCount": 85,
+		"ratings": {
+			"avg": 4.7,
+			"count": 345
+		},
+		"isPublished": true,
+		"version": 1,
+		"meta": {
+			"enrolledCount": 1050,
+			"totalDurationSec": 56000
+		},
+		"createdAt": {
+			"$date": "2024-07-26T10:00:00.000Z"
+		},
+		"updatedAt": {
+			"$date": "2024-07-26T10:00:00.000Z"
+		}
+	},
+	"lessonsAndQuizzes": [
+		{
+			"lesson": {
+				"_id": {
+					"$oid": "66a33765e1816f1880e60949"
+				},
+				"courseId": {
+					"$oid": "66a33765e1816f1880e60948"
+				},
+				"title": "Module 1: Manage Azure Identities and Governance",
+				"order": 1,
+				"content": {
+					"type": "video",
+					"title": "Managing Azure AD and RBAC",
+					"durationSec": 1800,
+					"file": {
+						"publicId": "az104/lesson1_video",
+						"url": "https://example.com/videos/lesson1.mp4",
+						"size": 15000000,
+						"mime": "video/mp4"
+					}
+				},
+				"quizzes": [
+					{
+						"$oid": "66a33765e1816f1880e6094a"
+					}
+				],
+				"isFreePreview": true
+			},
+			"quiz": {
+				"_id": {
+					"$oid": "66a33765e1816f1880e6094a"
+				},
+				"lessonId": {
+					"$oid": "66a33765e1816f1880e60949"
+				},
+				"title": "Quiz: Azure Identities and Governance",
+				"questions": [
+					{
+						"type": "mcq",
+						"prompt": "Which service is used to manage identities and access in Azure?",
+						"options": [
+							"Azure DevOps",
+							"Azure Active Directory",
+							"Azure Policy",
+							"Azure Monitor"
+						],
+						"correctAnswers": [
+							"Azure Active Directory"
+						],
+						"explanation": "Azure Active Directory (Azure AD) is the core identity and access management service."
+					},
+					{
+						"type": "truefalse",
+						"prompt": "RBAC can be applied to individual Azure resources, resource groups, and subscriptions.",
+						"options": [
+							"True",
+							"False"
+						],
+						"correctAnswers": [
+							"True"
+						],
+						"explanation": "Role-Based Access Control (RBAC) offers fine-grained access management across all levels of the Azure hierarchy."
+					},
+					{
+						"type": "mcq",
+						"prompt": "What is the primary purpose of an Azure subscription?",
+						"options": [
+							"To group resources for billing and management",
+							"To define a virtual network",
+							"To host web applications",
+							"To store data"
+						],
+						"correctAnswers": [
+							"To group resources for billing and management"
+						],
+						"explanation": "An Azure subscription is a logical container used to provision resources and is a fundamental unit for billing."
+					},
+					{
+						"type": "short",
+						"prompt": "What is the key benefit of using Azure Policy?",
+						"correctAnswers": [
+							"To enforce organizational standards and assess compliance."
+						],
+						"explanation": "Azure Policy helps to enforce rules and effects over your resources, ensuring they remain compliant with corporate standards."
+					},
+					{
+						"type": "mcq",
+						"prompt": "Which of the following is not a default RBAC role?",
+						"options": [
+							"Owner",
+							"Contributor",
+							"Reader",
+							"Network Admin"
+						],
+						"correctAnswers": [
+							"Network Admin"
+						],
+						"explanation": "Network Admin is not a default RBAC role. 'Network Contributor' is a default role for managing network resources."
+					}
+				],
+				"timeLimitSec": 300,
+				"generatedByAI": true,
+				"version": 1,
+				"isActive": true
+			}
+		},
+		{
+			"lesson": {
+				"_id": {
+					"$oid": "66a33765e1816f1880e6094b"
+				},
+				"courseId": {
+					"$oid": "66a33765e1816f1880e60948"
+				},
+				"title": "Module 2: Implement and Manage Storage",
+				"order": 2,
+				"content": {
+					"type": "video",
+					"title": "Working with Azure Storage Accounts and Blobs",
+					"durationSec": 2400,
+					"file": {
+						"publicId": "az104/lesson2_video",
+						"url": "https://example.com/videos/lesson2.mp4",
+						"size": 20000000,
+						"mime": "video/mp4"
+					}
+				},
+				"quizzes": [
+					{
+						"$oid": "66a33765e1816f1880e6094c"
+					}
+				],
+				"isFreePreview": false
+			},
+			"quiz": {
+				"_id": {
+					"$oid": "66a33765e1816f1880e6094c"
+				},
+				"lessonId": {
+					"$oid": "66a33765e1816f1880e6094b"
+				},
+				"title": "Quiz: Azure Storage",
+				"questions": [
+					{
+						"type": "mcq",
+						"prompt": "What is the most secure method for granting temporary, delegated access to Azure Storage resources?",
+						"options": [
+							"Account Access Keys",
+							"Shared Access Signature (SAS)",
+							"RBAC Role",
+							"Public Access"
+						],
+						"correctAnswers": [
+							"Shared Access Signature (SAS)"
+						],
+						"explanation": "A Shared Access Signature (SAS) provides a secure, time-limited, and delegated URI to grant access to your storage resources."
+					},
+					{
+						"type": "truefalse",
+						"prompt": "You can change a storage account's redundancy option (e.g., LRS to GRS) after creation.",
+						"options": [
+							"True",
+							"False"
+						],
+						"correctAnswers": [
+							"True"
+						],
+						"explanation": "You can upgrade redundancy options (e.g., LRS to GRS) but you cannot downgrade."
+					},
+					{
+						"type": "mcq",
+						"prompt": "Which type of storage is best suited for unstructured data like images and videos?",
+						"options": [
+							"Azure Files",
+							"Azure Queues",
+							"Azure Tables",
+							"Azure Blob Storage"
+						],
+						"correctAnswers": [
+							"Azure Blob Storage"
+						],
+						"explanation": "Azure Blob storage is optimized for storing massive amounts of unstructured data."
+					},
+					{
+						"type": "short",
+						"prompt": "What is the primary purpose of a 'hot' access tier in Azure Blob Storage?",
+						"correctAnswers": [
+							"For frequently accessed data that is actively in use."
+						],
+						"explanation": "The 'hot' tier is optimized for data that is accessed frequently, with higher storage costs but lower access costs."
+					},
+					{
+						"type": "mcq",
+						"prompt": "Which of the following is a managed file share service for the cloud?",
+						"options": [
+							"Azure Blob Storage",
+							"Azure Data Lake Storage",
+							"Azure Files",
+							"Azure Disks"
+						],
+						"correctAnswers": [
+							"Azure Files"
+						],
+						"explanation": "Azure Files provides managed file shares that can be accessed via the SMB protocol."
+					}
+				],
+				"timeLimitSec": 400,
+				"generatedByAI": true,
+				"version": 1,
+				"isActive": true
+			}
+		},
+		{
+			"lesson": {
+				"_id": {
+					"$oid": "66a33765e1816f1880e6094d"
+				},
+				"courseId": {
+					"$oid": "66a33765e1816f1880e60948"
+				},
+				"title": "Module 3: Deploy and Manage Azure Compute Resources",
+				"order": 3,
+				"content": {
+					"type": "video",
+					"title": "Provisioning VMs and Availability Sets",
+					"durationSec": 3000,
+					"file": {
+						"publicId": "az104/lesson3_video",
+						"url": "https://example.com/videos/lesson3.mp4",
+						"size": 25000000,
+						"mime": "video/mp4"
+					}
+				},
+				"quizzes": [
+					{
+						"$oid": "66a33765e1816f1880e6094e"
+					}
+				],
+				"isFreePreview": false
+			},
+			"quiz": {
+				"_id": {
+					"$oid": "66a33765e1816f1880e6094e"
+				},
+				"lessonId": {
+					"$oid": "66a33765e1816f1880e6094d"
+				},
+				"title": "Quiz: Azure Compute",
+				"questions": [
+					{
+						"type": "mcq",
+						"prompt": "Which Azure resource ensures high availability by distributing VMs across different fault domains and update domains?",
+						"options": [
+							"Virtual Machine Scale Set",
+							"Availability Set",
+							"Availability Zone",
+							"Load Balancer"
+						],
+						"correctAnswers": [
+							"Availability Set"
+						],
+						"explanation": "An Availability Set distributes VMs across different physical hardware in a single data center to provide high availability."
+					},
+					{
+						"type": "truefalse",
+						"prompt": "An Availability Zone can protect applications from a single data center failure.",
+						"options": [
+							"True",
+							"False"
+						],
+						"correctAnswers": [
+							"True"
+						],
+						"explanation": "Availability Zones are physically separate data centers within an Azure region, providing protection from entire data center failures."
+					},
+					{
+						"type": "mcq",
+						"prompt": "What is the primary purpose of an Azure Virtual Machine Scale Set?",
+						"options": [
+							"To automatically scale the number of VM instances",
+							"To manage VM backups",
+							"To provision single VMs",
+							"To monitor VM performance"
+						],
+						"correctAnswers": [
+							"To automatically scale the number of VM instances"
+						],
+						"explanation": "VM Scale Sets enable you to create and manage a group of identical, load-balanced VMs that can automatically scale based on demand."
+					},
+					{
+						"type": "short",
+						"prompt": "What is the purpose of an Azure Bastion host?",
+						"correctAnswers": [
+							"To provide secure and seamless RDP/SSH connectivity to VMs without public IP addresses."
+						],
+						"explanation": "Azure Bastion is a fully managed PaaS service that provides secure and private remote access to your virtual machines."
+					},
+					{
+						"type": "mcq",
+						"prompt": "Which service should you use to run a containerized application without managing the underlying virtual machines?",
+						"options": [
+							"Azure VMs",
+							"Azure Kubernetes Service (AKS)",
+							"Azure App Service",
+							"Azure Functions"
+						],
+						"correctAnswers": [
+							"Azure Kubernetes Service (AKS)"
+						],
+						"explanation": "AKS is a managed Kubernetes service that simplifies the deployment, management, and scaling of containerized applications."
+					}
+				],
+				"timeLimitSec": 500,
+				"generatedByAI": true,
+				"version": 1,
+				"isActive": true
+			}
+		},
+		{
+			"lesson": {
+				"_id": {
+					"$oid": "66a33765e1816f1880e6094f"
+				},
+				"courseId": {
+					"$oid": "66a33765e1816f1880e60948"
+				},
+				"title": "Module 4: Configure and Manage Virtual Networking",
+				"order": 4,
+				"content": {
+					"type": "video",
+					"title": "VNETs, NSGs, and Peering",
+					"durationSec": 2800,
+					"file": {
+						"publicId": "az104/lesson4_video",
+						"url": "https://example.com/videos/lesson4.mp4",
+						"size": 22000000,
+						"mime": "video/mp4"
+					}
+				},
+				"quizzes": [
+					{
+						"$oid": "66a33765e1816f1880e60950"
+					}
+				],
+				"isFreePreview": false
+			},
+			"quiz": {
+				"_id": {
+					"$oid": "66a33765e1816f1880e60950"
+				},
+				"lessonId": {
+					"$oid": "66a33765e1816f1880e6094f"
+				},
+				"title": "Quiz: Virtual Networking",
+				"questions": [
+					{
+						"type": "mcq",
+						"prompt": "What is the purpose of a Network Security Group (NSG)?",
+						"options": [
+							"To manage user identities",
+							"To control inbound and outbound traffic to network interfaces",
+							"To distribute network traffic across VMs",
+							"To monitor network performance"
+						],
+						"correctAnswers": [
+							"To control inbound and outbound traffic to network interfaces"
+						],
+						"explanation": "NSGs act as a virtual firewall for your Azure virtual network."
+					},
+					{
+						"type": "truefalse",
+						"prompt": "Network peering allows two virtual networks in the same region to communicate as if they were one.",
+						"options": [
+							"True",
+							"False"
+						],
+						"correctAnswers": [
+							"True"
+						],
+						"explanation": "Virtual network peering connects two Azure virtual networks, enabling resources in both networks to communicate."
+					},
+					{
+						"type": "mcq",
+						"prompt": "Which of the following is a private IP address range?",
+						"options": [
+							"172.31.255.255",
+							"10.10.10.10",
+							"198.168.1.1",
+							"All of the above"
+						],
+						"correctAnswers": [
+							"10.10.10.10"
+						],
+						"explanation": "The 10.0.0.0/8 range is one of the three private IP address ranges defined by RFC 1918."
+					},
+					{
+						"type": "short",
+						"prompt": "What is the main function of an Azure Load Balancer?",
+						"correctAnswers": [
+							"To distribute incoming network traffic across multiple back-end resources or virtual machines."
+						],
+						"explanation": "A load balancer distributes traffic to improve application availability and responsiveness."
+					},
+					{
+						"type": "mcq",
+						"prompt": "Which network component is used to connect an on-premises network to an Azure virtual network?",
+						"options": [
+							"Virtual Network Gateway",
+							"Application Gateway",
+							"ExpressRoute",
+							"All of the above"
+						],
+						"correctAnswers": [
+							"All of the above"
+						],
+						"explanation": "Both a VPN Gateway (Virtual Network Gateway) and ExpressRoute can be used for hybrid connectivity."
+					}
+				],
+				"timeLimitSec": 350,
+				"generatedByAI": true,
+				"version": 1,
+				"isActive": true
+			}
+		},
+		{
+			"lesson": {
+				"_id": {
+					"$oid": "66a33765e1816f1880e60951"
+				},
+				"courseId": {
+					"$oid": "66a33765e1816f1880e60948"
+				},
+				"title": "Module 5: Implement Hybrid Identities",
+				"order": 5,
+				"content": {
+					"type": "video",
+					"title": "Azure AD Connect and Authentication Methods",
+					"durationSec": 2000,
+					"file": {
+						"publicId": "az104/lesson5_video",
+						"url": "https://example.com/videos/lesson5.mp4",
+						"size": 18000000,
+						"mime": "video/mp4"
+					}
+				},
+				"quizzes": [
+					{
+						"$oid": "66a33765e1816f1880e60952"
+					}
+				],
+				"isFreePreview": false
+			},
+			"quiz": {
+				"_id": {
+					"$oid": "66a33765e1816f1880e60952"
+				},
+				"lessonId": {
+					"$oid": "66a33765e1816f1880e60951"
+				},
+				"title": "Quiz: Hybrid Identities",
+				"questions": [
+					{
+						"type": "mcq",
+						"prompt": "What is the core component for synchronizing on-premises AD with Azure AD?",
+						"options": [
+							"Azure AD B2B",
+							"Azure AD Connect",
+							"Azure AD Domain Services",
+							"Azure SSO"
+						],
+						"correctAnswers": [
+							"Azure AD Connect"
+						],
+						"explanation": "Azure AD Connect is the primary tool for synchronizing on-premises identities to the cloud."
+					},
+					{
+						"type": "truefalse",
+						"prompt": "Password Hash Synchronization (PHS) is a form of single sign-on (SSO).",
+						"options": [
+							"True",
+							"False"
+						],
+						"correctAnswers": [
+							"False"
+						],
+						"explanation": "PHS is a sign-in method that synchronizes a hash of user passwords. SSO is a related but separate concept."
+					},
+					{
+						"type": "mcq",
+						"prompt": "Which authentication method uses a proxy agent in your on-premises environment?",
+						"options": [
+							"Password Hash Synchronization (PHS)",
+							"Pass-through Authentication (PTA)",
+							"Federation with ADFS",
+							"Hybrid Identity Management"
+						],
+						"correctAnswers": [
+							"Pass-through Authentication (PTA)"
+						],
+						"explanation": "PTA agents run on-premises to validate users' passwords against their on-premises Active Directory."
+					},
+					{
+						"type": "short",
+						"prompt": "What is the key benefit of using a hybrid identity solution?",
+						"correctAnswers": [
+							"It allows users to use a single identity for both on-premises and cloud resources."
+						],
+						"explanation": "A hybrid identity solution provides a single, unified identity for users across a hybrid IT environment."
+					},
+					{
+						"type": "mcq",
+						"prompt": "Which of the following scenarios requires Active Directory Federation Services (ADFS)?",
+						"options": [
+							"If you need simple synchronization",
+							"If you need to use on-premises multi-factor authentication",
+							"If you need to support Windows Hello for Business",
+							"If you want to manage identities for guest users"
+						],
+						"correctAnswers": [
+							"If you need to support Windows Hello for Business"
+						],
+						"explanation": "While there are many uses, ADFS is often required for more advanced scenarios like on-premises MFA or specific features like Windows Hello for Business."
+					}
+				],
+				"timeLimitSec": 300,
+				"generatedByAI": true,
+				"version": 1,
+				"isActive": true
+			}
+		},
+		{
+			"lesson": {
+				"_id": {
+					"$oid": "66a33765e1816f1880e60953"
+				},
+				"courseId": {
+					"$oid": "66a33765e1816f1880e60948"
+				},
+				"title": "Module 6: Monitor and Backup Azure Resources",
+				"order": 6,
+				"content": {
+					"type": "video",
+					"title": "Using Azure Monitor and Recovery Services",
+					"durationSec": 2200,
+					"file": {
+						"publicId": "az104/lesson6_video",
+						"url": "https://example.com/videos/lesson6.mp4",
+						"size": 20000000,
+						"mime": "video/mp4"
+					}
+				},
+				"quizzes": [
+					{
+						"$oid": "66a33765e1816f1880e60954"
+					}
+				],
+				"isFreePreview": false
+			},
+			"quiz": {
+				"_id": {
+					"$oid": "66a33765e1816f1880e60954"
+				},
+				"lessonId": {
+					"$oid": "66a33765e1816f1880e60953"
+				},
+				"title": "Quiz: Monitoring and Backup",
+				"questions": [
+					{
+						"type": "mcq",
+						"prompt": "Which service is the core monitoring solution for collecting metrics, logs, and traces?",
+						"options": [
+							"Azure Security Center",
+							"Azure Cost Management",
+							"Azure Monitor",
+							"Azure Sentinel"
+						],
+						"correctAnswers": [
+							"Azure Monitor"
+						],
+						"explanation": "Azure Monitor is a comprehensive service for collecting, analyzing, and acting on telemetry from your cloud and on-premises environments."
+					},
+					{
+						"type": "truefalse",
+						"prompt": "Azure Backup supports backing up on-premises data.",
+						"options": [
+							"True",
+							"False"
+						],
+						"correctAnswers": [
+							"True"
+						],
+						"explanation": "Azure Backup can back up data from on-premises machines, not just Azure resources."
+					},
+					{
+						"type": "mcq",
+						"prompt": "What is the primary purpose of a Log Analytics workspace?",
+						"options": [
+							"To create dashboards",
+							"To store and analyze log data from various sources",
+							"To manage Azure subscriptions",
+							"To create alert rules"
+						],
+						"correctAnswers": [
+							"To store and analyze log data from various sources"
+						],
+						"explanation": "A Log Analytics workspace is a unique environment for Azure Monitor log data storage."
+					},
+					{
+						"type": "short",
+						"prompt": "What is a 'Recovery Services vault' used for in Azure?",
+						"correctAnswers": [
+							"To store backups and disaster recovery data for various Azure and on-premises workloads."
+						],
+						"explanation": "A Recovery Services vault is a secure storage container for your backups and recovery points."
+					},
+					{
+						"type": "mcq",
+						"prompt": "Which service provides a centralized view of your security posture across Azure?",
+						"options": [
+							"Azure Monitor",
+							"Azure Security Center",
+							"Azure Cost Management",
+							"Azure Resource Health"
+						],
+						"correctAnswers": [
+							"Azure Security Center"
+						],
+						"explanation": "Azure Security Center (now part of Microsoft Defender for Cloud) provides unified security management and advanced threat protection."
+					}
+				],
+				"timeLimitSec": 450,
+				"generatedByAI": true,
+				"version": 1,
+				"isActive": true
+			}
+		},
+		{
+			"lesson": {
+				"_id": {
+					"$oid": "66a33765e1816f1880e60955"
+				},
+				"courseId": {
+					"$oid": "66a33765e1816f1880e60948"
+				},
+				"title": "Module 7: Plan and Implement Business Continuity",
+				"order": 7,
+				"content": {
+					"type": "video",
+					"title": "Implementing Azure Site Recovery",
+					"durationSec": 2500,
+					"file": {
+						"publicId": "az104/lesson7_video",
+						"url": "https://example.com/videos/lesson7.mp4",
+						"size": 23000000,
+						"mime": "video/mp4"
+					}
+				},
+				"quizzes": [
+					{
+						"$oid": "66a33765e1816f1880e60956"
+					}
+				],
+				"isFreePreview": false
+			},
+			"quiz": {
+				"_id": {
+					"$oid": "66a33765e1816f1880e60956"
+				},
+				"lessonId": {
+					"$oid": "66a33765e1816f1880e60955"
+				},
+				"title": "Quiz: Business Continuity",
+				"questions": [
+					{
+						"type": "mcq",
+						"prompt": "What is the term for the maximum acceptable time an application can be unavailable after a disaster?",
+						"options": [
+							"RPO (Recovery Point Objective)",
+							"RTO (Recovery Time Objective)",
+							"SLO (Service Level Objective)",
+							"MTTR (Mean Time to Repair)"
+						],
+						"correctAnswers": [
+							"RTO (Recovery Time Objective)"
+						],
+						"explanation": "RTO is the time goal for recovering from an outage. RPO is the data loss goal."
+					},
+					{
+						"type": "truefalse",
+						"prompt": "Azure Site Recovery is a disaster recovery service for both Azure and on-premises workloads.",
+						"options": [
+							"True",
+							"False"
+						],
+						"correctAnswers": [
+							"True"
+						],
+						"explanation": "Azure Site Recovery orchestrates and automates replication of VMs and physical servers to Azure."
+					},
+					{
+						"type": "mcq",
+						"prompt": "Which of the following is NOT a feature of Azure Backup?",
+						"options": [
+							"Cross-region restore",
+							"Instant restore",
+							"Long-term retention",
+							"Continuous application failover"
+						],
+						"correctAnswers": [
+							"Continuous application failover"
+						],
+						"explanation": "Azure Site Recovery handles continuous application failover, while Azure Backup is focused on data backup and restoration."
+					},
+					{
+						"type": "short",
+						"prompt": "What is the main benefit of using soft delete for Azure Blob Storage?",
+						"correctAnswers": [
+							"It protects against accidental or malicious deletion of data by allowing you to restore deleted objects."
+						],
+						"explanation": "Soft delete retains deleted data for a specified period, giving you a chance to recover it."
+					},
+					{
+						"type": "mcq",
+						"prompt": "Which backup method is most suitable for frequently changing databases with low RPO requirements?",
+						"options": [
+							"Daily snapshot backups",
+							"Transactional log backups",
+							"Monthly full backups",
+							"Weekly full backups"
+						],
+						"correctAnswers": [
+							"Transactional log backups"
+						],
+						"explanation": "Transactional log backups capture all changes to a database, allowing for restoration to a specific point in time with minimal data loss."
+					}
+				],
+				"timeLimitSec": 400,
+				"generatedByAI": true,
+				"version": 1,
+				"isActive": true
+			}
+		},
+		{
+			"lesson": {
+				"_id": {
+					"$oid": "66a33765e1816f1880e60957"
+				},
+				"courseId": {
+					"$oid": "66a33765e1816f1880e60948"
+				},
+				"title": "Module 8: Manage Costs and Azure Subscriptions",
+				"order": 8,
+				"content": {
+					"type": "video",
+					"title": "Cost Management and Budgets",
+					"durationSec": 2000,
+					"file": {
+						"publicId": "az104/lesson8_video",
+						"url": "https://example.com/videos/lesson8.mp4",
+						"size": 19000000,
+						"mime": "video/mp4"
+					}
+				},
+				"quizzes": [
+					{
+						"$oid": "66a33765e1816f1880e60958"
+					}
+				],
+				"isFreePreview": false
+			},
+			"quiz": {
+				"_id": {
+					"$oid": "66a33765e1816f1880e60958"
+				},
+				"lessonId": {
+					"$oid": "66a33765e1816f1880e60957"
+				},
+				"title": "Quiz: Cost Management",
+				"questions": [
+					{
+						"type": "mcq",
+						"prompt": "Which service helps you create budgets and view a breakdown of your Azure spend?",
+						"options": [
+							"Azure Monitor",
+							"Azure Cost Management and Billing",
+							"Azure Advisor",
+							"Azure Security Center"
+						],
+						"correctAnswers": [
+							"Azure Cost Management and Billing"
+						],
+						"explanation": "This service helps you analyze, manage, and optimize your costs."
+					},
+					{
+						"type": "truefalse",
+						"prompt": "A resource group is a unit for billing.",
+						"options": [
+							"True",
+							"False"
+						],
+						"correctAnswers": [
+							"False"
+						],
+						"explanation": "A subscription is a billing unit. A resource group is a logical container for related resources."
+					},
+					{
+						"type": "mcq",
+						"prompt": "Which of the following is a cost optimization recommendation from Azure Advisor?",
+						"options": [
+							"Use a more expensive VM size",
+							"Delete unused VMs",
+							"Deploy more web apps",
+							"Enable advanced logging"
+						],
+						"correctAnswers": [
+							"Delete unused VMs"
+						],
+						"explanation": "Azure Advisor provides recommendations for optimizing costs, reliability, and security."
+					},
+					{
+						"type": "short",
+						"prompt": "What is an Azure Reserved Virtual Machine Instance (RI)?",
+						"correctAnswers": [
+							"A billing benefit that allows you to save money by committing to a one-year or three-year plan for VM usage."
+						],
+						"explanation": "Azure RIs provide significant savings compared to pay-as-you-go pricing for consistent workloads."
+					},
+					{
+						"type": "mcq",
+						"prompt": "Which tool can be used to set a spending limit on a subscription?",
+						"options": [
+							"Azure Policy",
+							"Azure Cost Management Budgets",
+							"Azure Monitor",
+							"Azure Lighthouse"
+						],
+						"correctAnswers": [
+							"Azure Cost Management Budgets"
+						],
+						"explanation": "Budgets can be used to monitor and set spending limits on a subscription or resource group."
+					}
+				],
+				"timeLimitSec": 350,
+				"generatedByAI": true,
+				"version": 1,
+				"isActive": true
+			}
+		},
+		{
+			"lesson": {
+				"_id": {
+					"$oid": "66a33765e1816f1880e60959"
+				},
+				"courseId": {
+					"$oid": "66a33765e1816f1880e60948"
+				},
+				"title": "Module 9: Implement Azure App Service",
+				"order": 9,
+				"content": {
+					"type": "video",
+					"title": "Deploying and Scaling Web Apps",
+					"durationSec": 2400,
+					"file": {
+						"publicId": "az104/lesson9_video",
+						"url": "https://example.com/videos/lesson9.mp4",
+						"size": 21000000,
+						"mime": "video/mp4"
+					}
+				},
+				"quizzes": [
+					{
+						"$oid": "66a33765e1816f1880e6095a"
+					}
+				],
+				"isFreePreview": false
+			},
+			"quiz": {
+				"_id": {
+					"$oid": "66a33765e1816f1880e6095a"
+				},
+				"lessonId": {
+					"$oid": "66a33765e1816f1880e60959"
+				},
+				"title": "Quiz: Azure App Service",
+				"questions": [
+					{
+						"type": "mcq",
+						"prompt": "What is a deployment slot in Azure App Service?",
+						"options": [
+							"A tool for creating backups",
+							"A way to host multiple applications on one VM",
+							"A separate environment to test new versions of a web app",
+							"A method for scaling out web apps"
+						],
+						"correctAnswers": [
+							"A separate environment to test new versions of a web app"
+						],
+						"explanation": "Deployment slots provide a safe way to test a new version of your web app before swapping it to production."
+					},
+					{
+						"type": "truefalse",
+						"prompt": "Azure App Service is a PaaS (Platform-as-a-Service) offering.",
+						"options": [
+							"True",
+							"False"
+						],
+						"correctAnswers": [
+							"True"
+						],
+						"explanation": "Azure App Service is a fully managed PaaS offering for building and hosting web apps."
+					},
+					{
+						"type": "mcq",
+						"prompt": "Which of the following is NOT a scaling option for Azure App Service?",
+						"options": [
+							"Manual scaling",
+							"Autoscaling",
+							"Vertical scaling",
+							"Horizontal scaling"
+						],
+						"correctAnswers": [
+							"Vertical scaling"
+						],
+						"explanation": "Vertical scaling (changing the VM size) is not an option within App Service. You can only scale horizontally by adding more instances or manually/automatically scaling up the App Service Plan."
+					},
+					{
+						"type": "short",
+						"prompt": "What is the purpose of an App Service Plan?",
+						"correctAnswers": [
+							"It defines the underlying set of compute resources for your web app to run on."
+						],
+						"explanation": "An App Service Plan specifies the region, VM size, and scale count of the web app."
+					},
+					{
+						"type": "mcq",
+						"prompt": "What is the primary benefit of using a custom domain with an Azure web app?",
+						"options": [
+							"It makes the web app more secure",
+							"It allows you to use a user-friendly URL instead of the default azurewebsites.net address",
+							"It provides a free SSL certificate",
+							"It improves performance"
+						],
+						"correctAnswers": [
+							"It allows you to use a user-friendly URL instead of the default azurewebsites.net address"
+						],
+						"explanation": "Custom domains provide a professional and memorable URL for your web app."
+					}
+				],
+				"timeLimitSec": 300,
+				"generatedByAI": true,
+				"version": 1,
+				"isActive": true
+			}
+		},
+		{
+			"lesson": {
+				"_id": {
+					"$oid": "66a33765e1816f1880e6095b"
+				},
+				"courseId": {
+					"$oid": "66a33765e1816f1880e60948"
+				},
+				"title": "Module 10: Implement and Manage Azure Functions",
+				"order": 10,
+				"content": {
+					"type": "video",
+					"title": "Serverless Computing and Function Triggers",
+					"durationSec": 1500,
+					"file": {
+						"publicId": "az104/lesson10_video",
+						"url": "https://example.com/videos/lesson10.mp4",
+						"size": 14000000,
+						"mime": "video/mp4"
+					}
+				},
+				"quizzes": [
+					{
+						"$oid": "66a33765e1816f1880e6095c"
+					}
+				],
+				"isFreePreview": false
+			},
+			"quiz": {
+				"_id": {
+					"$oid": "66a33765e1816f1880e6095c"
+				},
+				"lessonId": {
+					"$oid": "66a33765e1816f1880e6095b"
+				},
+				"title": "Quiz: Azure Functions",
+				"questions": [
+					{
+						"type": "mcq",
+						"prompt": "What is the core concept of serverless computing?",
+						"options": [
+							"You don't need to write code",
+							"You manage the underlying servers",
+							"The cloud provider manages the server infrastructure",
+							"You pay a fixed monthly fee"
+						],
+						"correctAnswers": [
+							"The cloud provider manages the server infrastructure"
+						],
+						"explanation": "Serverless computing abstracts away the server management, allowing you to focus on your code."
+					},
+					{
+						"type": "truefalse",
+						"prompt": "Azure Functions can be triggered by a timer.",
+						"options": [
+							"True",
+							"False"
+						],
+						"correctAnswers": [
+							"True"
+						],
+						"explanation": "A timer trigger allows a function to be executed on a predefined schedule."
+					},
+					{
+						"type": "mcq",
+						"prompt": "Which of the following is a common pricing model for Azure Functions?",
+						"options": [
+							"Pay-per-minute",
+							"Fixed monthly cost",
+							"Consumption-based pricing",
+							"Pay-per-VM"
+						],
+						"correctAnswers": [
+							"Consumption-based pricing"
+						],
+						"explanation": "The consumption plan charges you based on the resources consumed by your function, not for the underlying server infrastructure."
+					},
+					{
+						"type": "short",
+						"prompt": "What is the purpose of an 'event-driven' architecture?",
+						"correctAnswers": [
+							"It is an architecture pattern where a system's behavior is determined by events, which trigger actions."
+						],
+						"explanation": "In an event-driven architecture, components respond to events rather than communicating directly with each other."
+					},
+					{
+						"type": "mcq",
+						"prompt": "Which service can be used to monitor the performance of your Azure Functions?",
+						"options": [
+							"Azure Cost Management",
+							"Azure App Service",
+							"Azure Application Insights",
+							"Azure Active Directory"
+						],
+						"correctAnswers": [
+							"Azure Application Insights"
+						],
+						"explanation": "Application Insights is a feature of Azure Monitor that provides performance management and monitoring for your applications, including Azure Functions."
+					}
+				],
+				"timeLimitSec": 300,
+				"generatedByAI": true,
+				"version": 1,
+				"isActive": true
+			}
+		}
+	]
+}

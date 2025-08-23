@@ -39,10 +39,12 @@ const LessonSchema = new Schema(
         mime: String,
       },
     },
-    quizId: {
-      type: Types.ObjectId,
-      ref: "Quiz",
-    },
+    quizzes: [
+      {
+        type: Types.ObjectId,
+        ref: "Quiz",
+      },
+    ],
     isFreePreview: {
       type: Boolean,
       default: false,
